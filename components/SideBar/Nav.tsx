@@ -19,31 +19,26 @@ interface NavItem {
 const Nav: React.FC<NavProps> = ({ expand }) => {
   const navParams: NavItem[] = [
     {
-      title: 'Management',
+      title: 'Highlights',
       items: [
         {
-          text: 'Dashboard',
-          className: 'bxs-dashboard',
+          text: 'Home',
+          className: 'bxs-home',
         },
         {
-          text: 'Analytics',
+          text: 'Projects',
           className: 'bxs-bar-chart-alt-2',
         },
         {
-          text: 'Wallet',
+          text: 'Tech Stack',
           className: 'bxs-wallet',
         },
         {
-          text: 'Notifications',
+          text: 'Contact Me',
           className: 'bxs-bell',
-        },
-        {
-          text: 'Setting',
-          className: 'bxs-dashboard',
         },
       ],
     },
-    // Add more navParams as needed
   ];
 
   const addEventListener = () => {
