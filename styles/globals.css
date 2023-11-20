@@ -42,6 +42,3 @@ body {
   }
 } */
 
-body[dark-mode='true'] {
-  background-image: url(../public/bg.jpg);
-}

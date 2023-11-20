@@ -1,6 +1,6 @@
-import React, { Fragment, useEffect } from 'react';
-import styles from '../../styles/Nav.module.css';
-import NavList from './NavList';
+import React, { Fragment, useEffect } from "react";
+import styles from "../../styles/Nav.module.css";
+import NavList from "./NavList";
 
 // Define TypeScript interface for props
 interface NavProps {
@@ -19,23 +19,44 @@ interface NavItem {
 const Nav: React.FC<NavProps> = ({ expand }) => {
   const navParams: NavItem[] = [
     {
-      title: 'Highlights',
+      title: "Highlights",
       items: [
         {
-          text: 'Home',
-          className: 'bxs-home',
+          text: "Home",
+          className: "Home",
         },
         {
-          text: 'Projects',
-          className: 'bxs-bar-chart-alt-2',
+          text: "Projects",
+          className: "GanttChartSquare",
         },
         {
-          text: 'Tech Stack',
-          className: 'bxs-wallet',
+          text: "Tech Stack",
+          className: "Layers",
         },
         {
-          text: 'Contact Me',
-          className: 'bxs-bell',
+          text: "Experience",
+          className: "SearchCode",
+        },
+        {
+          text: "Contact Me",
+          className: "UserSquare2",
+        },
+      ],
+    },
+    {
+      title: "Socials",
+      items: [
+        {
+          text: "GitHub",
+          className: "Github",
+        },
+        {
+          text: "LinkedIn",
+          className: "Linkedin",
+        },
+        {
+          text: "Email",
+          className: "MailPlus",
         },
       ],
     },
@@ -44,9 +65,9 @@ const Nav: React.FC<NavProps> = ({ expand }) => {
   const addEventListener = () => {
     const navItems = document.querySelectorAll(`.${styles.nav_items}`);
 
-    navItems.forEach(navItem => {
-      navItem.addEventListener('click', () => {
-        navItems.forEach(navItem => {
+    navItems.forEach((navItem) => {
+      navItem.addEventListener("click", () => {
+        navItems.forEach((navItem) => {
           navItem.classList.remove(`${styles.active}`);
         });
         navItem.classList.add(`${styles.active}`);

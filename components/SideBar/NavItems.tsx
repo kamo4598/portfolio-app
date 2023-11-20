@@ -1,5 +1,6 @@
-import React from 'react';
-import styles from '../../styles/Nav.module.css';
+import React from "react";
+import styles from "../../styles/Nav.module.css";
+import { icons } from "lucide-react";
 
 interface NavItem {
   className: string;
@@ -12,9 +13,11 @@ interface NavItemsProps {
 }
 
 const NavItems: React.FC<NavItemsProps> = ({ item, active }) => {
+  const LucideIcon = icons[item.className as keyof typeof icons];
+
   return (
     <li className={`${styles.nav_items} ${active}`}>
-      <i className={`bx ${item.className}`}></i>
+      {LucideIcon ? <LucideIcon name={item.className} /> : null}
       <span>{item.text}</span>
     </li>
   );

@@ -162,11 +162,7 @@
   left: 50px;
   width: 100px;
   height: 100px;
-  opacity: 0.4;
-  background-image: url("https://assets.digitalocean.com/labs/images/community_bg.png");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
+  opacity: 0.6;
 }
 
 .container .box span::after {
@@ -190,11 +186,7 @@
   right: 50px;
   width: 100px;
   height: 100px;
-  opacity: 0.4;
-  background-image: url("https://assets.digitalocean.com/labs/images/community_bg.png");
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
+  opacity: 0.6;
 }
 
 @keyframes animate {
