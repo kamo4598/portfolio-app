@@ -53,9 +53,9 @@ const DatabaseTags = () => {
 const TechStack = () => {
   return (
     <>
-    <div className="flex w-full justify-center text-6xl font-sans font-bold pt-5">
-      Tech Stacks
-    </div>
+      <div className="flex w-full justify-center text-6xl font-sans font-bold pt-5">
+        What I Know
+      </div>
       <div className="flex w-full h-auto justify-center">
         <GlowingCard color="orange" title="Frontend">
           <FrontEndTags />

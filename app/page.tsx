@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Cover from "../components/cover/Cover";
 import TimeLine from "../components/timeline/Timeline";
 import TechStack from "@/components/techStack/TechStack";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SideBar />
       <div className={styles.main}>
         <Cover />
+        <Projects />
         <TechStack />
         <TimeLine />
       </div>

@@ -12,7 +12,7 @@ const TimeLine: React.FC = () => {
   return (
     <>
       <div className="flex w-full justify-center text-6xl font-sans font-bold py-5">
-        Experience
+        My Professional Journey
       </div>
       <div className="flex w-full max-h-[1000rem] justify-center">
         <VerticalTimeline animate={true}>
