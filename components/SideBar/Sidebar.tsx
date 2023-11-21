@@ -4,7 +4,7 @@ import SideBarLogo from './SideBarLogo';
 import Nav from './Nav';
 import Arrow from './Arrow';
 
-const SideBar: React.FC = () => {
+const Sidebar: React.FC = () => {
     const [expand, setExpand] = useState<boolean>(false);
 
     return (
@@ -16,4 +16,4 @@ const SideBar: React.FC = () => {
     );
 }
 
-export default SideBar;
+export default Sidebar;
