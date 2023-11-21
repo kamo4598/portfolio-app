@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import styles from "../../styles/Nav.module.css";
+import styles from "../styles/Nav.module.css";
 import NavList from "./NavList";
 
 // Define TypeScript interface for props

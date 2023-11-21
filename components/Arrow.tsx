@@ -1,4 +1,4 @@
-import styles from "../../styles/Arrow.module.css";
+import styles from "../styles/Arrow.module.css";
 
 // Define TypeScript interface for props
 interface HamburgerProps {

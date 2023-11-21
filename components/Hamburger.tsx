@@ -1,4 +1,4 @@
-import styles from "../../styles/Hamburger.module.css";
+import styles from "../styles/Hamburger.module.css";
 import React, { useState } from "react";
 
 const Hamburger: React.FC = () => {

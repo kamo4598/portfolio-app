@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/Nav.module.css";
+import styles from "../styles/Nav.module.css";
 import { icons } from "lucide-react";
 
 interface NavItem {

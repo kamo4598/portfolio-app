@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../styles/SideBar.module.css';
-import SideBarLogo from './sidebar/SideBarLogo';
-import Nav from './sidebar/Nav';
-import Arrow from './sidebar/Arrow';
+import SideBarLogo from './SideBarLogo';
+import Nav from './Nav';
+import Arrow from './Arrow';
 
 const Sidebar: React.FC = () => {
     const [expand, setExpand] = useState<boolean>(false);
