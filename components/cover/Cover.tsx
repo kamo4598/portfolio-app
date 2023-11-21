@@ -9,8 +9,8 @@ interface CoverProps {}
 
 const Cover: FC<CoverProps> = () => {
   return (
-    <div className="flex rounded-lg w-full  bg-[url('/cover.jpg')] bg-no-repeat bg-cover">
-      <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
+    <div className="flex rounded-full max-h-[20vh] w-full md:w-3/4 mt-5 bg-[url('/cover.jpg')] bg-no-repeat bg-cover">
+      <div className="flex justify-center rounded-full w-full overflow-hidden px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
         <ProfilePic />
         <div className="flex md:flex-1 flex-col justify-center gap-4">
           <div className="flex justify-between items-center gap-5 ">
