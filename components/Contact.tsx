@@ -1,12 +1,9 @@
 import React from "react";
-import { SocialIconGroupLight, SocialIconGroupPrimary } from "./social-icons";
+import { SocialIconGroupLight } from "./social-icons";
 
 const Contact = () => {
   return (
-    <div
-      className="bg-primary w-full py-10 px-4 md:px-0 text-center md:mt-10"
-      id="contact"
-    >
+    <div className="lg:bg-[url('/partyPopper.png')] md:bg-[rgba(24,0,127,1)] bg-no-repeat bg-right-bottom w-full py-10 px-4 md:px-0 text-center md:mt-10">
       <h4 className="text-white text-2xl md:text-3xl font-extrabold font-display mb-8">
         Interested in collaborating?
       </h4>
@@ -15,8 +12,10 @@ const Contact = () => {
         that you need building, or a project that needs coding, I'd love to help
         you with it.
       </p>
-      <div className="w-full mt-10 mx-auto pb-8 border-b border-borderLight">
-        <p className={`text-primaryLight text-m mr-3 transition duration-500 ease-out hover:ease-in hover:underline hover:text-base mb-4`}>
+      <div className="lg:w-1/4 md:w-full mt-10 mx-auto pb-8 border-b border-borderLight">
+        <p
+          className={`text-primaryLight text-m mr-3 transition duration-500 ease-out hover:ease-in hover:underline hover:text-base mb-4`}
+        >
           <a
             href="mailto:hassankamran98@gmail.com"
             className="text-primaryLight"
