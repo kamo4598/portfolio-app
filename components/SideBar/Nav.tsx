@@ -80,14 +80,14 @@ const Nav: React.FC<NavProps> = ({ expand }) => {
   }, []);
 
   return (
-    <nav className={styles.nav} aria-expanded={expand}>
+    <div className={styles.nav} aria-expanded={expand}>
       {navParams.map((item, idx) => (
         <Fragment key={idx}>
           <NavList navParam={item} />
           {idx + 1 !== navParams.length ? <hr /> : null}
         </Fragment>
       ))}
-    </nav>
+    </div>
   );
 };
 
