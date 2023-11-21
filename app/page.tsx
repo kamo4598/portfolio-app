@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import ParticlesBackground from "@/components/particles/ParticlesBackground";
 import AboutMe from "@/components/AboutMe";
-import Sidebar from "@/components/sidebar/Sidebar";
+import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
