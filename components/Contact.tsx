@@ -9,7 +9,7 @@ const Contact = () => {
       </h4>
       <p className="text-white text-md md:w-1/2 lg:w-1/4 m-auto mb-10">
         If you have an application you are interested in developing, a feature
-        that you need building, or a project that needs coding, I'd love to help
+        that you need building, or a project that needs coding, I&apos;d love to help
         you with it.
       </p>
       <div className="lg:w-1/4 md:w-full mt-10 mx-auto pb-8 border-b border-borderLight">
