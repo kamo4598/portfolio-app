@@ -138,6 +138,34 @@ const TimeLine: React.FC = () => {
               </div>
             </div>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2016 - 2020"
+            iconStyle={{ background: "#60492C", color: "#fff" }}
+            icon={<GraduationCap />}
+            visible={true}
+            contentStyle={{ background: "#60492C", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid #60492C" }}
+          >
+            <h3 className="vertical-timeline-element-title font-bold">
+              National University of Sciences & Technology
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bachelor Of Electrical Engineering
+            </h4>
+            <p>
+              Fundamentals of Computing, Object Oriented Programming, Data
+              Structures, Digital Image Processing, Machine Learning, Computer
+              Vision
+            </p>
+            <hr className="mt-4" />
+            <div className="mt-4">
+              <div className="flex">
+                <div>{<Layers />}</div>
+                <div className="ml-2">Tech Stack: C, C++, MATLAB, Python</div>
+              </div>
+            </div>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>
