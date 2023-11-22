@@ -1,7 +1,7 @@
 import GlowingCard from "../ui/cards/GlowingCard";
 import Tag from "../ui/Tag";
 
-const borderClasses = "border-double border-4 p-2";
+const borderClasses = "border-double border-4";
 
 const getBorderClass = (color: string) => {
   return `${borderClasses} border-${color}-500`;
@@ -10,7 +10,7 @@ const getBorderClass = (color: string) => {
 const FrontEndTags = () => {
   return (
     <div className="flex flex-wrap gap-2">
-      <Tag classNames={getBorderClass("green")}>React</Tag>
+      <Tag classNames={getBorderClass("red")}>React</Tag>
       <Tag classNames={getBorderClass("red")}>Next.JS</Tag>
       <Tag classNames={getBorderClass("red")}>Angular</Tag>
       <Tag classNames={getBorderClass("red")}>TypeScript</Tag>
@@ -29,11 +29,11 @@ const BackendTags = () => {
       <Tag classNames={getBorderClass("red")}>NodeJS</Tag>
       <Tag classNames={getBorderClass("red")}>Express</Tag>
       <Tag classNames={getBorderClass("red")}>.NET</Tag>
+      <Tag classNames={getBorderClass("red")}>Windows Service</Tag>
       <Tag classNames={getBorderClass("red")}>ASP.NET Web Form</Tag>
       <Tag classNames={getBorderClass("red")}>C#</Tag>
       <Tag classNames={getBorderClass("red")}>RabbitMQ</Tag>
       <Tag classNames={getBorderClass("red")}>ASP Classic</Tag>
-      <Tag classNames={getBorderClass("red")}>Windows Service</Tag>
     </div>
   );
 };

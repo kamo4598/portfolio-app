@@ -61,7 +61,7 @@
   border-radius: 8px;
   transform: skewX(15deg);
   transition: all 500ms;
-  background: linear-gradient(315deg, #ffbc00, #ff0058);
+  background: linear-gradient(315deg, #ff2200, #ff0044);
 }
 #orange::after {
   content: "";
@@ -74,7 +74,7 @@
   transform: skewX(15deg);
   transition: all 500ms;
   filter: blur(30px);
-  background: linear-gradient(315deg, #ffbc00, #ff0058);
+  background: linear-gradient(315deg, #ff2200, #ff0044);
 }
 
 #green::before{
@@ -87,7 +87,7 @@
   border-radius: 8px;
   transform: skewX(15deg);
   transition: all 500ms;
-  background: linear-gradient(315deg, #4dff03, #00d0ff);
+  background: linear-gradient(315deg, #0310ff, #b700ff);
 }
 #green::after {
   content: "";
@@ -100,7 +100,7 @@
   transform: skewX(15deg);
   transition: all 500ms;
   filter: blur(30px);
-  background: linear-gradient(315deg, #4dff03, #00d0ff);
+  background: linear-gradient(315deg, #0310ff, #b700ff);
 }
 
 #purple::before{
@@ -113,7 +113,7 @@
   border-radius: 8px;
   transform: skewX(15deg);
   transition: all 500ms;
-  background: linear-gradient(315deg, #03a9f4, #ff0058);
+  background: linear-gradient(315deg, #ff03f7, #b700ff);
 }
 #purple::after {
   content: "";
@@ -126,7 +126,7 @@
   transform: skewX(15deg);
   transition: all 500ms;
   filter: blur(30px);
-  background: linear-gradient(315deg, #03a9f4, #ff0058);
+  background: linear-gradient(315deg, #ff03f7, #b700ff);
 }
 
 .container .box span {
