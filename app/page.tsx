@@ -17,7 +17,7 @@ export default function Home() {
         <Sidebar />
       </div>
       <div className="flex-1 flex flex-col items-center justify-center">
-        <div className="flex-1 min-h-[100vh] flex flex-col items-center justify-center">
+        <div className="flex-1 min-h-[100vh] w-[100vw] md:w-full flex flex-col items-center justify-center">
           <Cover />
           <AboutMe />
         </div>

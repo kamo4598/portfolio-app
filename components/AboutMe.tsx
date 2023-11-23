@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 const AboutMe = () => {
   return (
     <div className="flex w-full mt-5 min-h-[75vh] justify-center items-center text-6xl font-sans font-thin">
@@ -7,7 +8,18 @@ const AboutMe = () => {
           <span className="text-[#ff4d5a]">Hassan</span>.
         </p>
         <br />
-        <p>I&apos;m a full stack web developer.</p>
+        <TypeAnimation
+          sequence={[
+            "I'm a problem solver.",
+            1000,
+            "I'm a full stack web developer.",
+            1000,
+            "I'm a game-changer in tech solutions.",
+            1000,
+          ]}
+          wrapper="span"
+          speed={20}
+        />
       </div>
     </div>
   );
